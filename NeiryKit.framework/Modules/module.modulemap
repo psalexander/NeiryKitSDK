@@ -1,0 +1,11 @@
+framework module NeiryKit {
+  umbrella header "NeiryKit.h"
+  export *
+
+  module * { export * }
+}
+
+module NeiryKit.Swift {
+  header "NeiryKit-Swift.h"
+  requires objc
+}
